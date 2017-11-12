@@ -1,3 +1,4 @@
+import random
 import math
 from environment import Agent, Environment
 from planner import RoutePlanner
@@ -25,7 +26,7 @@ class LearningAgent(Agent):
         self.trial_t = 0
         #param a for learning alg 2, a shold be 0 < a < 1
         self.param_a = 0.8
-        random.seed(123)
+        random.seed(321)
         
 
     def reset(self, destination=None, testing=False):
