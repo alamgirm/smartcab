@@ -1,0 +1,11 @@
+| waypoint | light |  left | oncoming  | act     |
+|----------|-------|-------|-----------|---------|
+| forward  | green |   D   |   D       | forward |
+| forward  | red   |   D   |   D       | wait    |
+| right    | green |   D   |   D       | right   |
+| right    | red   |  None |   D       | right   |
+| right    | red   |  Yes  |   D       | wait    |
+| left     | green |  D    |   None    | left    |
+| left     | green |  D    |   Yes     | wait    |
+| left     | red   |  D    |   D       | wait    |
+ 

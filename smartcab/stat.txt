@@ -1,0 +1,9 @@
+eps_tol = 0.0001
+eps = 1/t^2
+
+alpha = 0.3   => S = A+, R = F
+alpha = 0.35  => S = A+, R = B
+alpha = 0.4   => S = A+, R = B
+alpha = 0.45  => S = A+, R = B
+alpha = 0.5   => S = A+, R = A
+alpha = 0.55  => S = F,  R = A+
